@@ -14,7 +14,7 @@ var path = require("path")
 
 var host = "0.0.0.0", port = "8000";
 var hosturl = "http://" + host + ":" + port + "/";
-var rootdir = "./"
+var rootdir = "."
 var exts = ["mp4", "ts", "rmvb"];
 
 http.createServer(function(req, res) {
