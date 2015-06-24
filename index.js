@@ -15,7 +15,7 @@ var path = require("path")
 var host = "0.0.0.0", port = "8000";
 var hosturl = "http://" + host + ":" + port + "/";
 var rootdir = "."
-var exts = ["mp4", "ts", "rmvb"];
+var exts = ["mp4", "ts", "rmvb", "mkv"];
 
 http.createServer(function(req, res) {
 	var video_name = url.parse(req.url).pathname;
