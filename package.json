@@ -1,0 +1,15 @@
+{
+  "name": "youmu-video",
+  "version": "1.0.0",
+  "description": "Brute-Force Video Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.net9.org:hewr1993/youmu.git"
+  },
+  "author": "Wayne_Ho",
+  "license": "ISC"
+}
